@@ -205,6 +205,9 @@ nav:
       - G3 Piloting Primer: piloting/slocum/piloting-primer.md
       - Checklists:
         - Slocum Piloting Checklist: piloting/slocum/checklists/slocum-piloting-checklist.md
+    - SeaExplorer:
+      - piloting/seaexplorer/index.md
+      - Test: piloting/seaexplorer/test.md
 
   - Glider Components:
     - glider-components/index.md

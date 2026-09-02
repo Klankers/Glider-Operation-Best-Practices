@@ -32,4 +32,14 @@ logs, monitoring procedures, and decision-making checklists.
 
     [:octicons-arrow-right-24: Slocum Piloting](slocum/index.md)
 
+-   ![SeaExplorer](images/seaexplorer_glider_trace.png){ .platform-icon }
+
+    **SeaExplorer**
+
+    ---
+
+    Piloting procedures and checklists for the SeaExplorer platform.
+
+    [:octicons-arrow-right-24: SeaExplorer Piloting](seaexplorer/index.md)
+
 </div>
