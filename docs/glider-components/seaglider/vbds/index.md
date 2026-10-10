@@ -168,6 +168,37 @@ spends it three ways:
 | Negative thrust in the densest water | −250 cc |
 | **Left over to compensate stratification** | **400 cc** |
 
+!!! note "Why thrust is only counted once"
+    The glider bleeds to `$C_VBD` − thrust for the dive and pumps to
+    `$C_VBD` + thrust for the climb. That looks like it should cost twice the
+    thrust, but it doesn't. `$C_VBD` is neutral in the *densest* water, so
+    every other neutral point (lighter water higher up, and the surface with
+    the antenna out) sits **above** it. Only the dive thrust reaches below
+    `$C_VBD`, where nothing else in the budget is, so it needs its own line.
+    The climb setting falls inside the volume already set aside above
+    `$C_VBD` for stratification and the antenna, so it overlaps those
+    allowances instead of adding to them.
+
+    ```
+    max pump ──── surface, antenna exposed
+       150 cc  antenna
+    ──────────── neutral in surface water
+       400 cc  stratification   ← climb setting falls in here
+    ──────────── $C_VBD (neutral in densest water)
+       250 cc  dive thrust
+    max bleed ─── dive setting
+    ```
+
+    More generally, the range needed is roughly *dive thrust + max(stratification
+    + antenna, climb thrust)*. In well-mixed water the stratification term is
+    near zero, so the climb thrust does need its own room above neutral and
+    the budget really is about 2 × thrust. In stratified water the climb
+    starts at `$C_VBD` + thrust and slows as the water gets lighter. The
+    glider then tops up with small pumps (see
+    [Dive cycle — Climb](../../../piloting/seaglider/dive-cycle-and-control-files.md#climb)),
+    so over the climb it works its way up through the stratification
+    allowance toward the surface setting.
+
 The rule of thumb for what that remainder buys: about **70 cc per σ<sub>T</sub>
 unit** of density change for SGX (~50 cc for SG), so the 400 cc above absorbs
 ≈5.5 σ<sub>T</sub> of stratification (SGX). If the mission's density range
