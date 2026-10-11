@@ -212,6 +212,9 @@ nav:
     - Seaglider:
       - data-management/seaglider/index.md
       - Data Quality Control: data-management/seaglider/data-qc.md
+    - Slocum:
+      - data-management/slocum/index.md
+      - Data Processing & QC: data-management/slocum/data-processing-qc.md
 
   - Glider Components:
     - glider-components/index.md

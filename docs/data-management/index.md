@@ -24,4 +24,14 @@ so the pages are organised by glider.
 
     [:octicons-arrow-right-24: Seaglider Data Management](seaglider/index.md)
 
+-   ![Slocum](images/slocum.svg){ .platform-icon }
+
+    **Slocum**
+
+    ---
+
+    Converting and merging the binary files, the community toolchain, and the QC and corrections the user has to apply.
+
+    [:octicons-arrow-right-24: Slocum Data Management](slocum/index.md)
+
 </div>
