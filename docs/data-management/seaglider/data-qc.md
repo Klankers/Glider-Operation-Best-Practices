@@ -135,7 +135,7 @@ NetCDF files.
   `sg_directives.txt`. To reprocess a whole mission, use `Reprocess.py`
   (from existing `.log`/`.eng` files) or `Base.py --force` (from the
   original transmissions). See
-  [Trim & Flight Model](trim-and-flight-model.md#reprocessing-old-missions).
+  [Trim & Flight Model](../../piloting/seaglider/trim-and-flight-model.md#reprocessing-old-missions).
 - **Sensor extensions** run after the CTD and speed corrections and can add
   their own QC. One example marks parts of a passive-acoustic spectrum
   recorded while a motor was running. By convention an extension never
@@ -357,7 +357,7 @@ model: the CT sail's thermal-inertia correction, the DAC, and the
 dead-reckoned positions. The basestation's **Flight Model System** fits
 lift/drag coefficients and a volume offset for every dive and uses those
 values, not the `$HD_A/B/C` on the glider, for processing. The details are
-in [Trim & Flight Model](trim-and-flight-model.md#the-flight-model-system-fms).
+in [Trim & Flight Model](../../piloting/seaglider/trim-and-flight-model.md#the-flight-model-system-fms).
 
 Two QC consequences:
 
@@ -467,7 +467,7 @@ affect QC:
   CTD in air fails the bounds. The result is no corrected CTD, no corrected
   oxygen and missing plots. Check the `.eng`/`.nc` files directly to confirm
   sensors are logging. See
-  [Dive Cycle — deck dives](dive-cycle-and-control-files.md).
+  [Dive Cycle — deck dives](../../piloting/seaglider/dive-cycle-and-control-files.md).
 - **Don't mix simulated and real dives in one mission directory.** It
   confuses vis and stops FMS from running (`FMS_DECK_DIVES` alert), which
   degrades the CTD corrections. Use `NewMission.py` (or `MoveData.py`
@@ -489,8 +489,8 @@ affect QC:
 
 ## See also
 
-- [Trim & Flight Model](trim-and-flight-model.md): FMS, mass and volmax, reprocessing
+- [Trim & Flight Model](../../piloting/seaglider/trim-and-flight-model.md): FMS, mass and volmax, reprocessing
 - [Sensor Configuration](../../glider-components/seaglider/sensors/index.md): getting sensors into the `.nc` files
 - [Pressure Sensor](../../glider-components/seaglider/pressure-sensor/index.md): zeroing and depth errors
-- [Compass Calibration](compass-calibration.md): heading errors feed the DAC
-- [Dive Cycle & Control Files](dive-cycle-and-control-files.md): run phases, `$ERRORS`, deck dives
+- [Compass Calibration](../../piloting/seaglider/compass-calibration.md): heading errors feed the DAC
+- [Dive Cycle & Control Files](../../piloting/seaglider/dive-cycle-and-control-files.md): run phases, `$ERRORS`, deck dives

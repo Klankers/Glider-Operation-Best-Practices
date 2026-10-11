@@ -193,7 +193,6 @@ nav:
       - Dive Cycle & Control Files: piloting/seaglider/dive-cycle-and-control-files.md
       - Trim & Flight Model: piloting/seaglider/trim-and-flight-model.md
       - Compass Calibration: piloting/seaglider/compass-calibration.md
-      - Data Quality Control: piloting/seaglider/data-qc.md
       - One-Pager: piloting/seaglider/one-pager.md
       - Checklists:
         - Seaglider Piloting Checklist: piloting/seaglider/checklists/seaglider-piloting-checklist.md
@@ -207,6 +206,12 @@ nav:
       - G3 Piloting Primer: piloting/slocum/piloting-primer.md
       - Checklists:
         - Slocum Piloting Checklist: piloting/slocum/checklists/slocum-piloting-checklist.md
+
+  - Data Management:
+    - data-management/index.md
+    - Seaglider:
+      - data-management/seaglider/index.md
+      - Data Quality Control: data-management/seaglider/data-qc.md
 
   - Glider Components:
     - glider-components/index.md

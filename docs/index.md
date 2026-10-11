@@ -86,6 +86,14 @@ and long-term maintenance.
 
     [:octicons-arrow-right-24: Go to topic](piloting/index.md)
 
+-   :material-database-check:{ .lg .middle } **Data Management**
+
+    ---
+
+    Data processing, quality control, and preparing glider data for users and data centres.
+
+    [:octicons-arrow-right-24: Go to topic](data-management/index.md)
+
 -   :material-chip:{ .lg .middle } **Glider Components**
 
     ---

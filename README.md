@@ -21,6 +21,7 @@ Built with [MkDocs](https://www.mkdocs.org/) and the [Material theme](https://sq
 | Deployment | Vessel coordination, launch procedures, and initial dive verification |
 | Recovery | Surface approach, retrieval, and post-recovery inspection |
 | Piloting | Mission files, dive cycle tuning, trim, aborts, and in-mission monitoring |
+| Data Management | Data processing, quality control, and preparing data for users and data centres |
 | Maintenance | Scheduled servicing, O-ring replacement, and sensor calibration |
 | Batteries | Charging, storage, safe handling, and capacity tracking |
 | Altimeter | Installation, configuration, and target-altitude best practices |
